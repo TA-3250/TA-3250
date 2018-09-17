@@ -42,8 +42,7 @@ extern "C"
 #define FFTW_CONCAT(prefix, name) prefix ## name
 #define FFTW_MANGLE_DOUBLE(name) FFTW_CONCAT(fftw_, name)
 #define FFTW_MANGLE_FLOAT(name) FFTW_CONCAT(fftwf_, name)
-#define FFTW_MANGLE_LONG_DOUBLE(name) FFTW_CONCAT(fftwl_, name)
-
+#define FFTW_MANGLE_LONG_DOUBLE(name) FFTW_CONCAT(fftwl_, name)\
 
 enum fftw_r2r_kind_do_not_use_me {
      FFTW_R2HC=0, FFTW_HC2R=1, FFTW_DHT=2,
@@ -265,6 +264,7 @@ FFTW_DEFINE_API(FFTW_MANGLE_LONG_DOUBLE, long double, fftwl_complex)
 
 #define FFTW_NO_SIMD (1U << 17)
 
+#define ADDITION(int a, int b)
 #ifdef __cplusplus
 }  /* extern "C" */
 #endif /* __cplusplus */
