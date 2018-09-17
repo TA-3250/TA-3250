@@ -1,0 +1,2 @@
+input ="hjhjkhj"
+print(input)
