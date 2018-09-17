@@ -23,7 +23,8 @@
 
 #ifndef FFTW3_H
 #define FFTW3_H
-
+#degine OBJECT_H
+#define IMAGE_H
 #include <stdio.h>
 
 #ifdef __cplusplus
