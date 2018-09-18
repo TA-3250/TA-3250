@@ -23,6 +23,8 @@
 
 #ifndef FFTW3_H
 #define FFTW3_H
+#define ABC_H
+#define JGFFG_H
 #degine OBJECT_H
 #define IMAGE_H
 #include <stdio.h>
